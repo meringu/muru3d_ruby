@@ -1,0 +1,3 @@
+require 'muru3d'
+
+Muru3d::Window.new.show
