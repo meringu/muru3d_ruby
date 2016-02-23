@@ -2,7 +2,7 @@ module Muru3d
   class Window < Gosu::Window
     def initialize
       super(800, 600, false)
-      self.caption = "Lesson #1 - Texture Loading"
+      self.caption = 'Muru3d'
     end
 
     def update
