@@ -19,10 +19,12 @@ Gem::Specification.new do |spec|
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ['lib']
 
-  spec.add_runtime_dependency 'gosu', '~> 0.10.5'
-  spec.add_runtime_dependency 'opengl', '0.10.0.pre1'
+  spec.add_runtime_dependency 'activesupport', '~> 4.2'
   spec.add_runtime_dependency 'glu', '~> 8.2'
   spec.add_runtime_dependency 'glut', '~> 8.2'
+  spec.add_runtime_dependency 'gosu', '~> 0.10.5'
+  spec.add_runtime_dependency 'opengl', '0.10.0.pre1'
+  spec.add_runtime_dependency 'wavefront'
 
   spec.add_development_dependency 'bundler', '~> 1.11'
   spec.add_development_dependency 'rake', '~> 10.0'
